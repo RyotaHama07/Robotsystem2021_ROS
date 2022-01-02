@@ -50,13 +50,13 @@ roscore
 - 端末2　ノード1(random_genration.py)を起動する
 
 ```
-rosrun robotsystem2021_ros random_generatin.py
+rosrun robotsystem2021_ros random_generation.py
 ```
 
 - 端末3　ノード2(mult.py)を起動する
 
 ```
-rosrun robotsystem2021_ros muit.py
+rosrun robotsystem2021_ros mult.py
 ```
 ___
 
