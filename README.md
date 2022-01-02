@@ -32,9 +32,9 @@ ___
 パッケージを使用するために以下のコマンドを実行してください。
 ```
 cd catkin_ws/src
-git clone https://github.com/RyotaHama07/Robotsystem2021_ROS.git
+git clone https://github.com/RyotaHama07/robotsystem2021_ros.git
 cd ..
-catkin make 
+catkin_make 
 source ~/.bashrc
 ```
 ___
@@ -50,13 +50,13 @@ roscore
 - 端末2　ノード1(random_genration.py)を起動する
 
 ```
-$ rosrun
+rosrun robotsystem2021_ros random_generatin.py
 ```
 
 - 端末3　ノード2(mult.py)を起動する
 
 ```
-$ rosrun
+rosrun robotsystem2021_ros muit.py
 ```
 ___
 
