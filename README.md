@@ -31,39 +31,37 @@ ___
 ## インストール
 パッケージを使用するために以下のコマンドを実行してください。
 ```
-$ git clone 
-$ cd robotsystem2021_devicedriver/myled
-$ make  
-$ sudo insmod myled.ko  
-$ sudo chmod 666 /dev/myled0  
-```
-2.目的の動作をさせるために以下のように入力してください。
-#### 点灯と消灯の間隔が短くなりながら点滅
-
-```
-$ echo 0 > /dev/myled0
-```
-
-#### 一定のリズムで点滅
-
-```
-$ echo 1 > /dev/myled0
-```
-
-#### モールス信号で「こんにちは」
-
-```
-$ echo 2 > /dev/myled0
+cd catkin_ws/src
+git clone https://github.com/RyotaHama07/Robotsystem2021_ROS.git
+cd ..
+catkin make 
+source ~/.bashrc
 ```
 ___
 
-## 終了するとき
-終了する場合は以下のコマンドを実行してください。
+## 実行
+すべてノードを起動するために以下のコマンドを実行してください。
+
+- 端末1　ROSを起動する
+```
+roscore
+```
+
+- 端末2　ノード1(random_genration.py)を起動する
 
 ```
-$ sudo rmmod myled
-$ make clean
+$ rosrun
 ```
+
+- 端末3　ノード2(mult.py)を起動する
+
+```
+$ rosrun
+```
+___
+
+## 終了
+終了する場合は Ctrl + C を押してください。
 ___
 
 ## デモ動画
