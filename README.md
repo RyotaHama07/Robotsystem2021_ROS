@@ -9,8 +9,8 @@ ___
 ## 環境
 
 - 本体 : Raspberry Pi 4 
-
 - OS  :  ubuntu 20.04 
+- ROS1
 
 ___
 
