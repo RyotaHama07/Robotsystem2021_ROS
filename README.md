@@ -56,8 +56,10 @@ rosrun robotsystem2021_ros random_generation.py
 - 端末3　ノード2(mult.py)を起動する
 
 ```
+cd catkin_ws
 rosrun robotsystem2021_ros mult.py
 ```
+ノード起動したら、表示される指示に従ってレベルを入力しスタート
 ___
 
 ## 終了
