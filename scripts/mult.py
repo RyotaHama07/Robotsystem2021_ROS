@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# BSD-3-Clause License
+# Copyright (c) 2021 Ryuichi Ueda and Hama Ryota All rights reserved.
+
 import rospy
 from std_msgs.msg import Int32
 import random
