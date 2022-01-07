@@ -5,7 +5,7 @@
 ## 製作
 このROSパッケージはロボットシステム学第10回の講義内に作成したパッケージ[mypkg](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)を参考に作成しています。
 ### 製作者
-Ryuichi Ueda and Ryota Hama
+Ryota Hama and Ryuichi Ueda 
 ___
 
 
